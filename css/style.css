@@ -262,7 +262,7 @@ header {
 
 
 
-/* ⭐️ Features cards section ⭐️ */
+/* ⭐️ Featured cards section ⭐️ */
 
 .featured__cards {
   list-style: none;
@@ -348,10 +348,9 @@ header {
   z-index: 2;
 }
 
+/* CARD 2 */
 
-/*  CARDS 2, 3 & 6  */
-
-.card2, .card3, .card6 {
+.card2 {
   width: 347px;
   height: 278px;
   flex-shrink: 0;
@@ -363,14 +362,30 @@ header {
   box-shadow: 3.4px 3.4px 0px 0px #000;
 }
 
-.card2-text, .card3-text, .card6-text {
+.card2 img {
+  width: 347px;
+  height: 218.006px;
+  flex-shrink: 0;
+  border-radius: 6px 15px 0px 0px;
+  
+  object-fit: cover;
+  position: absolute;
+  bottom: -1px;
+  z-index: 1;
+  object-position: center;
+  transform: scaleY(-1);
+  object-position: 50% 77%;
+}
+
+
+.card2-text {
   padding-left: 20px;
   align-items: center;
   padding-top: 18px;
   padding-bottom: 20px;
 }
 
-.card2-price, .card3-price, .card6-price {
+.card2-price {
   width: 65.418px;
   height: 59.994px;
   flex-shrink: 0;
@@ -390,7 +405,49 @@ header {
   z-index: 2;
 }
 
-.card2 img, .card3 img, .card6 img {
+
+/*  CARD 3  */
+
+.card3 {
+  width: 347px;
+  height: 278px;
+  flex-shrink: 0;
+  position: relative;
+
+  border-radius: 7.6px 7.6px 17.7px 7.6px;
+  border: 1.69px solid #000;
+  background: #FFF;
+  box-shadow: 3.4px 3.4px 0px 0px #000;
+}
+
+.card3-text {
+  padding-left: 20px;
+  align-items: center;
+  padding-top: 18px;
+  padding-bottom: 20px;
+}
+
+.card3-price {
+  width: 65.418px;
+  height: 59.994px;
+  flex-shrink: 0;
+
+  border-radius: 0px 0px 19.435px 0px;
+  border: 1.69px solid #000;
+  background: #080303;
+  color: white;
+
+  text-align: center;
+  margin-top: 0px;
+  align-items: center;
+
+  position: absolute;
+  bottom: -3px;
+  right: -1px;
+  z-index: 2;
+}
+
+.card3 img {
   width: 347px;
   height: 218.006px;
   flex-shrink: 0;
@@ -401,14 +458,6 @@ header {
   z-index: 1;
 }
 
-
-.card2 img {
-  object-position: center;
-}
-
-.card6 img {
-  object-position: bottom;
-}
 
 /*  CARD 4  */
 
@@ -485,7 +534,7 @@ header {
   width: 477px;
   height: 218.006px;
   flex-shrink: 0;
-
+  object-position: 0% 61%;
   border-radius: 6px 6px 0px 0px;
   object-fit: cover; 
 }
@@ -516,6 +565,60 @@ header {
   z-index: 2;
 }
 
+/* CARD 6 */
+
+.card6 {
+  width: 347px;
+  height: 278px;
+  flex-shrink: 0;
+  position: relative;
+
+  border-radius: 7.6px 7.6px 17.7px 7.6px;
+  border: 1.69px solid #000;
+  background: #FFF;
+  box-shadow: 3.4px 3.4px 0px 0px #000;
+}
+
+.card6-text {
+  padding-left: 20px;
+  align-items: center;
+  padding-top: 18px;
+  padding-bottom: 20px;
+}
+
+.card6-price {
+  width: 65.418px;
+  height: 59.994px;
+  flex-shrink: 0;
+
+  border-radius: 0px 0px 19.435px 0px;
+  border: 1.69px solid #000;
+  background: #080303;
+  color: white;
+
+  text-align: center;
+  margin-top: 0px;
+  align-items: center;
+
+  position: absolute;
+  bottom: -3px;
+  right: -1px;
+  z-index: 2;
+}
+
+.card6 img {
+  width: 347px;
+  height: 218.006px;
+  flex-shrink: 0;
+  border-radius: 0px 0px 15px 6px;
+  object-fit: cover;
+  position: absolute;
+  bottom: -1px;
+  z-index: 1;
+  object-position: 0% 78%;
+}
+
+
 /* FEATURED CARDS ALL */
 
 .featured__cards-all{ 
@@ -527,6 +630,7 @@ header {
   display: inline-block;
   vertical-align: middle;
   text-decoration: underline; 
+  padding-bottom: 40px;
   
 }
 
@@ -535,7 +639,66 @@ header {
   margin-right: 12px;
 }
 
-/* ⭐️ Footer section ⭐️ */
+/* ⭐️ Footer section 1 ⭐️ */
+
+.footer__line1 {
+  background-color: #E8F5E2;
+  display: flex;
+  border-top: 1px solid black;
+  padding: 50px 100px 15px 100px;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.footer__menu-list li {
+  list-style: none;
+  display: inline;
+  margin: 10px;
+  
+}
+
+.footer__menu-list a {
+  color: #000;
+  font-family: Nunito;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration: none;
+}
+
+/* ⭐️ Footer section 2 ⭐️ */
+
+.footer__line2 {
+  background-color: #E8F5E2;
+  display: flex;
+  padding: 10px 108px 20px 50px;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.footer__socials-list li {
+  list-style: none;
+  display: inline;
+  margin: 10px;
+}
+
+.footer__copyright p {
+  color: #6C7667;
+  font-family: Nunito;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.footer__socials {
+  margin-top: -20px;
+}
+
+
+
+
 
 
 
