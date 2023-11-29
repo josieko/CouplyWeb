@@ -405,9 +405,10 @@ header {
   flex-shrink: 0;
 
   border-radius: 0px 0px 19.465px 0px;
-  border: 1.693px solid #000;
-  background: #080303;
-  color: white;
+  border: 2px solid #000;
+  background: #9AC588;
+  color: black;
+  font-weight: 700;
 }
 
 .card1-text {
@@ -470,9 +471,10 @@ header {
   flex-shrink: 0;
 
   border-radius: 0px 0px 19.435px 0px;
-  border: 1.69px solid #000;
-  background: #080303;
-  color: white;
+  border: 2px solid #000;
+  background: #9AC588;
+  color: black;
+  font-weight: 700;
 
   text-align: center;
   margin-top: 0px;
@@ -512,9 +514,10 @@ header {
   flex-shrink: 0;
 
   border-radius: 0px 0px 19.435px 0px;
-  border: 1.69px solid #000;
-  background: #080303;
-  color: white;
+  border: 2px solid #000;
+  background: #9AC588;
+  color: black;
+  font-weight: 700;
 
   text-align: center;
   margin-top: 0px;
@@ -577,9 +580,10 @@ header {
   flex-shrink: 0;
 
   border-radius: 0px 0px 19.435px 0px;
-  border: 1.69px solid #000;
-  background: #080303;
-  color: white;
+  border: 2px solid #000;
+  background: #9AC588;
+  color: black;
+  font-weight: 700;
 
   text-align: center;
   margin-top: 0px;
@@ -599,7 +603,7 @@ header {
   flex-shrink: 0;
 
   border-radius: 7.5px 7.6px 17.7px 7.6px;
-  border: 1.693px solid #000;
+  border: 2px solid #000;
   background: #FFF;
   box-shadow: 3.4px 3.4px 0px 0px #000;
   position: relative;
@@ -631,8 +635,9 @@ header {
 
   border-radius: 0px 0px 19.465px 0px;
   border: 1.693px solid #000;
-  background: #080303;
-  color: white;
+  background: #9AC588;
+  color: black;
+  font-weight: 700;
 
   text-align: center;
   margin-top: -6px;
@@ -671,9 +676,10 @@ header {
   flex-shrink: 0;
 
   border-radius: 0px 0px 19.435px 0px;
-  border: 1.69px solid #000;
-  background: #080303;
-  color: white;
+  border: 2px solid #000;
+  background: #9AC588;
+  color: black;
+  font-weight: 700;
 
   text-align: center;
   margin-top: 0px;
