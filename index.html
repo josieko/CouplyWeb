@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/style.css" rel="stylesheet" />
     <link rel="icon" type="image/png" href="assets/cicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600&family=Raleway:ital,wght@0,300;0,500;0,700;1,400&display=swap" rel="stylesheet">
     <title>Couply</title>
-    <style>
-         @import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
-    </style>
 </head>
 <body>
     <header>
@@ -17,105 +17,97 @@
           <div class="header__logo">
             <h4><img src="assets/Logo.svg" alt="logo"></h4>
           </div>
-  
-          <ul class="header__menu">
-            <li>
-              <a href="#home">Home</a>
-            </li>
-            <li>
-              <a href="#coupons">Coupons</a>
-            </li>
-            <li>
-              <a href="#faq">FAQ</a>
-            </li>
-            <li>
-              <a href="#contact">Contact</a>
-            </li>
-          </ul>
-
-          <div class="header-nav-button">
-            <button class="start-saving-button">
-                Start saving
-                <img class="start-saving-button-arrow" src="assets/Arrow_1.svg" alt="arrowdownskinny"> 
-            </button>
-        </div>
         </nav>
       </header>
 
 
 <div class="hero__boxes">
 
-    <div class="hero__boxes-children">
-
-        <div class="hero__left-box">
-            <div class="hero__shimmer">
-                <img src="assets/shimmer.svg" alt="shimmer">
-            </div>
-            <div class="hero__msg">
-                <h1>Shopping with coupons, applied automatically!</h1>
-            </div>
-            <div class="hero__followup-msg">
-                <h5>
-                    Used by over 500,000 users
-                </h5>
-            </div>
-    
-            <div class="users__line">
-                <img src="assets/users.svg" alt="users">
-            </div>
-            <div class="user__highlight">
-                <img src="assets/userhighlight.svg" alt="userhighlight">
-            </div>
-    
-        </div>  
-
-        
-     </div>
-     <div class="hero__right-box">
+     <div class="hero__left-box">
+        <div class="hero__discount">
+            <strong class="hero__discount-number">Save 40%</strong>
+            <br>
+            <span class="hero__discount-txt">with Couply</span>
+        </div>
         <ul>
-         <li>
-             <div class="hero__right-box-number">
-                 1
-             </div>
-             <p class="hero__right-box-note">
-                Download the extension for Chrome of Firefox
-             </p>   
-         </li>
-         
-         <li>
-             <div class="hero__right-box-number">
-                 2
-             </div>
-             <p class="hero__right-box-note">
-                Visit your favourite online retailers
-             </p>
-         </li>
-
-         <li>
-             <div class="hero__right-box-number">
-                 3
-             </div>
-             <p class="hero__right-box-note">
-                Save! Apply cupouns from the toolbar
-             </p>
-         </li>
-
+            <li class="hero__feature">
+                <div class="hero__feature-photo">
+                    <img src="assets/nikeshoescompress.jpg" alt="nikeshoes">
+                </div>
+                <div class="hero__feature-text">
+                    Women's Nike Shoes
+                </div>
+                <div class="hero__feature-price">
+                    <p>
+                        <span class="old" style="text-decoration: line-through;">$189</span>
+                        <span class="new">$113,40</span>
+                    </p>
+                </div>
+            </li>
         </ul>
  
-        <div class="hero__right-box-btn">
-         <button class="hero__right-box-button">
-             Install Extension
-             <img src="assets/arrow-bold.svg" alt="arrowdownbold">
-         </button>
+        <div class="hero__left-box-btn">
+         
         </div>
      </div>
         
 
+     <div class="hero__right-box">
+        <div class="hero__msg">
+            <h1>Shopping with coupons, applied automatically!</h1>
+        </div>
+        <div class="hero__followup-msg">
+            <h5>
+                Used by over 500,000 users
+            </h5>
+
+            <button class="hero__left-box-button">
+                Add to Chrome - It's Free!
+                <img src="assets/arrow-bold.svg" alt="arrowdownbold">
+            </button>
     
+            <p class="reviews">
+                ★★★★★ 20k+ reviews
+            </p>
+    
+        </div>
+
+        
+    </div>  
+
 </div>
 
+<div class="hero__download-steps">
+    <ul>
+        <li>
+            <div class="hero__download-number">
+                1
+            </div>
+            <p class="hero__download-note">
+               Download the extension for Chrome of Firefox
+            </p>   
+        </li>
+        
+        <li>
+            <div class="hero__download-number">
+                2
+            </div>
+            <p class="hero__download-note">
+               Visit your favourite online retailers
+            </p>
+        </li>
 
+        <li>
+            <div class="hero__download-number">
+                3
+            </div>
+            <p class="hero__download-note">
+               Save! Apply cupouns from the toolbar
+            </p>
+        </li>
 
+       </ul>
+    </div>
     
 
     <div class="brand__section">
@@ -242,7 +234,7 @@
         </ul>
 
         <div class="featured__cards-all">
-            <img src="assets/blackeye.svg" alt="eyeicon">
+            <img src="assets/eyesvg.svg" alt="eyeicon">
                 <p>
                     View all offers 
                 </p>  

@@ -10,63 +10,26 @@ body {
 header {
     background-color: #E8F5E2;
     font-family: Nunito;
-    border-bottom: solid black;
-    border-width: 1px;
 }
 
 
 .header__nav {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 316px;
-    padding-top: 20px;
-    margin-bottom: 20px;
+    justify-content: left;
+    align-items: left;
+    padding: 20px 0 20px 20px;
 }
 
 .header__logo img {
     justify-content: flex-start;
-    padding-left: 20px;
+    padding-left: 30px;
     justify-items: center;
     width: 104px;
     height: 30px;
 
 }
 
-.header__menu li {
-    list-style: none;
-    display: inline;
-    width: 314px;
-    height: 23px;
-    align-items: flex-start;
-    gap: 30px;
-    margin-right: 30px;
-}
 
-.header__menu li a {
-    text-decoration: none;
-    color: black;
-}
-
-.start-saving-button {
-    display: inline-flex;
-    padding: 5px 20px;
-    justify-content: center;
-    align-items: center;
-    flex-shrink: 0;
-
-    border-radius: 3px;
-    border: 1px solid #000;
-    background: #C6DBBD;
-
-    font-family: Nunito;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    gap: 10px;
-    box-sizing: border-box;
-}
 
 
 /* ⭐️ Hero section ⭐️ */
@@ -75,107 +38,197 @@ header {
     display: flex;
   }
   
-  .hero__left-box,
-  .hero__right-box {
-    flex: 1;
-    padding: 1px;
-    box-sizing: border-box;
-    background-color: #E8F5E2;
+.hero__left-box,
+.hero__right-box {
+  flex: 1;
+  padding: 20px 40px 40px 40px;
+  box-sizing: border-box;
+  background-color: #E8F5E2;
   }
   
-  .hero__left-box {
-    border-right: 1px solid black;
-    font-weight: bold;
-    padding-left: 0px;
-  }
-
-  .hero__left-box h1 {
-    display: flex;
-    width: 639px;
-    height: 131px;
+  .hero__discount {
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 50%; 
+    padding: 20px;
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    margin-left: 590px;
+    z-index: 2;
+    text-align: center;
+    margin-top: -35px;
+  
+    display: flex; 
     flex-direction: column;
     justify-content: center;
-    flex-shrink: 0;
-    
-    
-
+    align-items: center;
+  }
+  
+  .hero__discount-number {
     color: #000;
     font-family: Nunito;
-    font-size: 45px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
+    font-size: 22px;
+    font-weight: 900;
+    margin-bottom: -22px;
+  }
+  
+  .hero__discount-txt {
+    color: #000;
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+
+
+.hero__feature {
+  width: 585px;
+  height: 395px;
+  flex-shrink: 0;
+  
+  border-radius: 10.807px 10.807px 0px 0px;
+  border-radius: 10.807px 10.807px 25.217px 10.807px;
+  border: 2.402px solid #000;
+  background: #FFF;
+  box-shadow: 4.80328px 4.80328px 0px 0px #000;
+  position: relative;
+  }
+  
+.hero__feature img {
+  width: 585px;
+  height: 309px;
+  flex-shrink: 0;
+  
+  border-radius: 7px 7px 0px 0px;
+  object-fit: cover;
+  }
+  
+.hero__feature-price {
+  width: 123px;
+  height: 86px;
+  flex-shrink: 0;
+  
+  border-radius: 0px 0px 19.465px 0px;
+  border: 2px solid #000;
+  background: #9AC588;
+  color: white;
+  
+  text-align: center;
+  margin-left: 150px;
+  align-items: center;
+  
+  position: absolute;
+  bottom: -2px;
+  right: -1px;
+  z-index: 2;
+  }
+
+.old {
+  color: rgba(0, 0, 0, 0.60);
+  font-family: Nunito;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-decoration-line: strikethrough;
+  }
+
+.new {
+  color: #000;
+  font-family: Nunito;
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
   }
 
   
-  .hero__shimmer {
-    position: relative;
-}
+.hero__feature-text {
+  padding-left: 20px;
+  align-items: center;
+  padding-top: 25px;
+  color: #000;
 
-.hero__shimmer img {
-    position: absolute;
-    top: 30px;
-    right: 3%;
-    z-index: 1; 
-    padding-right: 20px;
-}
+  font-family: Nunito;
+  font-size: 26.418px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  }
 
-.hero__msg {
-    position: relative;
-    z-index: 2;
-    margin-top: 55px;
-}
+.hero__right-box {
+  border-right: 1px solid black;
+  font-weight: bold;
+  margin-left: -100px;
+  }
 
-.hero__followup-msg {
+.hero__right-box h1 {
+  display: flex;
+  width: 639px;
+  height: 131px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
   margin-top: 60px;
-}
-
-.users__line img {
-  height: 45px;
-  margin-top: 0px;
-}
-
-.users__line,
-.user__highlight {
-    display: inline-block;
-    vertical-align: bottom;
-    margin-right: 10px;
-    margin-bottom: 50px;
-}
-
-.user__highlight img {
-  width: 120px;
-  margin-left: -80px;
-
-}
-
-  .hero__msg,
-  .hero__followup-msg,
-  .users__line,
-  .user__highlight {
-    padding-left: 120px;
-    top: 20px;
-
+  
+  color: #000;
+  font-family: Nunito;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
   }
 
 
-.hero__right-box {
+.hero__followup-msg h5 {
+  margin-top: 20px;
+  color: #000;
+  font-family: Nunito;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.reviews {
+  color: #000;
+  font-family: Nunito;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 30px;
+}
+
+.hero__msg,
+.hero__followup-msg,
+.users__line,
+.user__highlight {
+  padding-left: 120px;
+  top: 20px;
+  }
+
+
+.hero__left-box {
   display: inline-flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: flex-start;
   padding-left: 20px;
-  gap: 18px;
+  gap: 30px;
 }
 
-.hero__right-box li {
+.hero__left-box li {
     list-style: none;
+    display: inline-flex;
+  flex-direction: column;
 }
 
-.hero__right-box-button{
+.hero__left-box-button{
   display: flex;
-  width: 186px;
-  height: 36px;
+  width: 290px;
+  height: 47px;
   padding: 14px 17px;
   justify-content: center;
   align-items: center;
@@ -184,16 +237,23 @@ header {
 
   border-radius: 3px;
   border: 2px solid #000;
-  background: #9AC588;
+  background: #FF6565;
   box-shadow: 4px 4px 0px 0px #000;
+
+  color: #000;
+  font-family: Nunito;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 
-.hero__right-box-btn {
-  padding-left: 45px;
+.hero__left-box-btn {
+  padding-left: 0px;
   margin-top: -10px;
 }
 
-.hero__right-box-number {
+.hero__download-number {
     width: 30px;
     height: 30px;
     background-color: black;
@@ -201,17 +261,36 @@ header {
     text-align: center;
     line-height: 30px;
     border-radius: 50%;
-    display: inline-block;
-    margin-right: 10px;
+    display: inline-block;   
 }
 
-.hero__right-box-number, 
-.hero__right-box-note {
-   display: inline-block;
-    vertical-align: bottom;
-    margin-right: 10px;
-    margin-bottom: 20px;
+.hero__download-number, 
+.hero__download-note {
+  display: inline-block;
+  margin: 10px;
+  flex-direction: row;
 }
+
+.hero__download-steps li {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.hero__download-steps {
+  background-color: #E8F5E2;
+  padding: 30px;
+  margin-top: -50px;
+}
+
+.hero__download-steps ul {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  padding-left: 100px;
+}
+
+
 
 
 /* ⭐️ Brand section ⭐️ */
@@ -220,7 +299,9 @@ header {
   background-color: black;
   padding: 10px;
   padding-bottom: 270px;
-
+  width: 1440px;
+  height: 505px;
+  flex-shrink: 0;
 }
 
 .brand__section a {
@@ -261,16 +342,14 @@ header {
 }
 
 
-
 /* ⭐️ Featured cards section ⭐️ */
 
 .featured__cards {
   list-style: none;
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
   padding: 100px;
-  margin-top: -320px;
+  margin-top: -720px;
 
   color: #000;
   font-family: Nunito;
@@ -278,10 +357,11 @@ header {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  gap: 70px;
 }
 
 .featured__cards li {
-    margin-bottom: 60px;
+    margin-left: -25px;
 }
 
 .card1-text, .card1-price, 
@@ -376,7 +456,6 @@ header {
   transform: scaleY(-1);
   object-position: 50% 77%;
 }
-
 
 .card2-text {
   padding-left: 20px;
@@ -622,7 +701,8 @@ header {
 /* FEATURED CARDS ALL */
 
 .featured__cards-all{ 
-  margin-top: -130px;
+  margin-top: -100px;
+  margin-left: -25px;
   
 }
 
@@ -630,7 +710,8 @@ header {
   display: inline-block;
   vertical-align: middle;
   text-decoration: underline; 
-  padding-bottom: 40px;
+  padding-bottom: 20px;
+  color: white;
   
 }
 
